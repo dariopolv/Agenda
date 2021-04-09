@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673824932149",
+    "project_id": "agenda-eb2bc",
+    "storage_bucket": "agenda-eb2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673824932149:android:cbc7e016f2ec40f58e8c7c",
+        "android_client_info": {
+          "package_name": "com.example.agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673824932149-csi98ak802o3rcq75qkmqpifh6t2lrbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb0CoN_TNjButFYt1xJtItWDlrP8vSnws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673824932149-csi98ak802o3rcq75qkmqpifh6t2lrbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
