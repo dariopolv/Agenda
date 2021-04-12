@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.agenda">
 
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home">
+        <activity android:name=".Activities.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +18,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Test"
+        <activity android:name=".Activities.InsertWork"
             android:screenOrientation="portrait"
             >
         </activity>
+
+        <activity android:name=".Activities.ModifyWork"
+            android:screenOrientation="portrait"></activity>
+
+<activity android:name=".Activities.Home"
+    android:screenOrientation="portrait" ></activity>
+
+        <activity android:name=".Activities.Register" android:screenOrientation="portrait" ></activity>
 
 
     </application>
